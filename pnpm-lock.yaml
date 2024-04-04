@@ -156,7 +156,7 @@ devDependencies:
     version: 18.2.14
   '@types/react-copy-to-clipboard':
     specifier: ^5.0.4
-    version: 5.0.4
+    version: 5.0.7
   '@types/react-dom':
     specifier: ^18.0.10
     version: 18.0.10
@@ -788,8 +788,8 @@ packages:
   /@types/prop-types@15.7.5:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
 
-  /@types/react-copy-to-clipboard@5.0.4:
-    resolution: {integrity: sha512-otTJsJpofYAeaIeOwV5xBUGpo6exXG2HX7X4nseToCB2VgPEBxGBHCm/FecZ676doNR7HCSTVtmohxfG2b3/yQ==}
+  /@types/react-copy-to-clipboard@5.0.7:
+    resolution: {integrity: sha512-Gft19D+as4M+9Whq1oglhmK49vqPhcLzk8WfvfLvaYMIPYanyfLy0+CwFucMJfdKoSFyySPmkkWn8/E6voQXjQ==}
     dependencies:
       '@types/react': 18.2.14
     dev: true
