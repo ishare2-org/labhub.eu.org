@@ -64,7 +64,7 @@ dependencies:
     version: 3.10.1
   mpegts.js:
     specifier: ^1.7.2
-    version: 1.7.2
+    version: 1.7.3
   next:
     specifier: ^13.1.6
     version: 13.1.6(react-dom@18.2.0)(react@18.2.0)
@@ -3705,8 +3705,8 @@ packages:
     engines: {node: '>0.9'}
     dev: true
 
-  /mpegts.js@1.7.2:
-    resolution: {integrity: sha512-qQ1ELBDC4IAqpULFuFzp3hoQeKwD5BCR3UM9Lk2+kj9jCWcXl19spF7PdzX0ZljghPHAj/VL2ajBbGyMWk2fgA==}
+  /mpegts.js@1.7.3:
+    resolution: {integrity: sha512-kqZ1C1IsbAQN72cK8vMrzKeM7hwrwSBbFAwVAc7PPweOeoZxCANrc7fAVDKMfYUzxdNkMTnec9tVmlxmKZB0TQ==}
     dependencies:
       es6-promise: 4.2.8
       webworkify-webpack: 2.1.5
