@@ -55,7 +55,7 @@ dependencies:
     version: 0.0.3
   i18next:
     specifier: ^22.4.9
-    version: 22.4.9
+    version: 22.5.1
   ioredis:
     specifier: ^5.3.0
     version: 5.3.2
@@ -70,7 +70,7 @@ dependencies:
     version: 13.5.6(react-dom@18.2.0)(react@18.2.0)
   next-i18next:
     specifier: ^13.0.3
-    version: 13.0.3(i18next@22.4.9)(next@13.5.6)(react-i18next@12.1.4)(react@18.2.0)
+    version: 13.0.3(i18next@22.5.1)(next@13.5.6)(react-i18next@12.1.4)(react@18.2.0)
   nextjs-progressbar:
     specifier: ^0.0.16
     version: 0.0.16(next@13.5.6)(react@18.2.0)
@@ -106,7 +106,7 @@ dependencies:
     version: 4.3.3(react-dom@18.2.0)(react@18.2.0)
   react-i18next:
     specifier: ^12.1.4
-    version: 12.1.4(i18next@22.4.9)(react-dom@18.2.0)(react@18.2.0)
+    version: 12.1.4(i18next@22.5.1)(react-dom@18.2.0)(react@18.2.0)
   react-markdown:
     specifier: ^8.0.5
     version: 8.0.7(@types/react@18.2.74)(react@18.2.0)
@@ -220,13 +220,13 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       regenerator-runtime: 0.13.11
+    dev: false
 
   /@babel/runtime@7.24.4:
     resolution: {integrity: sha512-dkxf7+hn8mFBwKjs9bvBlArzLVxVbS8usaPUDd5p2a9JCL9tB8OaOVN1isD4+Xyk4ns89/xeOmbQvgdK7IIVdA==}
     engines: {node: '>=6.9.0'}
     dependencies:
       regenerator-runtime: 0.14.1
-    dev: true
 
   /@esbuild/android-arm64@0.17.19:
     resolution: {integrity: sha512-KBMWvEZooR7+kzY0BtbTQn0OAYY7CsiydT63pVEaPtVYF0hXbUaOyZog37DKxK7NF3XacBJOpYT4adIJh+avxA==}
@@ -3141,7 +3141,7 @@ packages:
       esbuild: 0.17.19
       fs-extra: 11.2.0
       gulp-sort: 2.0.0
-      i18next: 22.4.9
+      i18next: 22.5.1
       js-yaml: 4.1.0
       lilconfig: 2.1.0
       rsvp: 4.8.5
@@ -3155,10 +3155,10 @@ packages:
       - supports-color
     dev: true
 
-  /i18next@22.4.9:
-    resolution: {integrity: sha512-8gWMmUz460KJDQp/ob3MNUX84cVuDRY9PLFPnV8d+Qezz/6dkjxwOaH70xjrCNDO+JrUL25iXfAIN9wUkInNZw==}
+  /i18next@22.5.1:
+    resolution: {integrity: sha512-8TGPgM3pAD+VRsMtUMNknRz3kzqwp/gPALrWMsDnmC1mKqJwpWyooQRLMcbTwq8z8YwSmuj+ZYvc+xCuEpkssA==}
     dependencies:
-      '@babel/runtime': 7.20.13
+      '@babel/runtime': 7.24.4
 
   /ignore@5.2.4:
     resolution: {integrity: sha512-MAb38BcSbH0eHNBxn7ql2NH/kX33OkB3lZ1BNdh7ENeRChHTYsTvWrMubiIAMNS2llXEEgZ1MUOBtXChP3kaFQ==}
@@ -4398,7 +4398,7 @@ packages:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
     dev: true
 
-  /next-i18next@13.0.3(i18next@22.4.9)(next@13.5.6)(react-i18next@12.1.4)(react@18.2.0):
+  /next-i18next@13.0.3(i18next@22.5.1)(next@13.5.6)(react-i18next@12.1.4)(react@18.2.0):
     resolution: {integrity: sha512-7AA8J6WbkxRBtSf1+97LSAE7btxWZHsBIJEJ3FuTSBgYtpRiO5NGjcb8XbNAlz6yGU0TtS+yZE+/Wu83KhIT1Q==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -4411,11 +4411,11 @@ packages:
       '@types/hoist-non-react-statics': 3.3.1
       core-js: 3.27.2
       hoist-non-react-statics: 3.3.2
-      i18next: 22.4.9
+      i18next: 22.5.1
       i18next-fs-backend: 2.1.1
       next: 13.5.6(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
-      react-i18next: 12.1.4(i18next@22.4.9)(react-dom@18.2.0)(react@18.2.0)
+      react-i18next: 12.1.4(i18next@22.5.1)(react-dom@18.2.0)(react@18.2.0)
     dev: false
 
   /next-tick@1.1.0:
@@ -5106,7 +5106,7 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /react-i18next@12.1.4(i18next@22.4.9)(react-dom@18.2.0)(react@18.2.0):
+  /react-i18next@12.1.4(i18next@22.5.1)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-XQND7jYtgM7ht5PH3yIZljCRpAMTlH/zmngM9ZjToqa+0BR6xuu8c7QF0WIIOEjcMTB2S3iOfpN/xG/ZrAnO6g==}
     peerDependencies:
       i18next: '>= 19.0.0'
@@ -5121,7 +5121,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.20.13
       html-parse-stringify: 3.0.1
-      i18next: 22.4.9
+      i18next: 22.5.1
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
@@ -5286,6 +5286,7 @@ packages:
 
   /regenerator-runtime@0.13.11:
     resolution: {integrity: sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==}
+    dev: false
 
   /regenerator-runtime@0.13.9:
     resolution: {integrity: sha512-p3VT+cOEgxFsRRA9X4lkI1E+k2/CtnKtU4gcxyaCUreilL/vqI6CdZ3wxVUx3UOUg+gnUOQQcRI7BmSI656MYA==}
@@ -5293,7 +5294,6 @@ packages:
 
   /regenerator-runtime@0.14.1:
     resolution: {integrity: sha512-dYnhHh0nJoMfnkZs6GmmhFknAGRrLznOu5nc9ML+EJxGvrx6H7teuevqVqCuPcPK//3eDrrjQhehXVx9cnkGdw==}
-    dev: true
 
   /regexp.prototype.flags@1.4.3:
     resolution: {integrity: sha512-fjggEOO3slI6Wvgjwflkc4NFRCTZAu5CnNfBd5qOMYhWdn67nJBBu34/TkD++eeFmd8C9r9jfXJ27+nSiRkSUA==}
