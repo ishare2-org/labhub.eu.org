@@ -55,7 +55,7 @@ dependencies:
     version: 22.5.1
   ioredis:
     specifier: ^5.3.2
-    version: 5.3.2
+    version: 5.4.1
   jszip:
     specifier: ^3.10.1
     version: 3.10.1
@@ -2979,8 +2979,8 @@ packages:
       side-channel: 1.0.6
     dev: true
 
-  /ioredis@5.3.2:
-    resolution: {integrity: sha512-1DKMMzlIHM02eBBVOFQ1+AolGjs6+xEcM4PDL7NqOS6szq7H9jSaEkIUH6/a5Hl241LzW6JLSiAbNvTQjUupUA==}
+  /ioredis@5.4.1:
+    resolution: {integrity: sha512-2YZsvl7jopIa1gaePkeMtd9rAcSjOOjPtpcLlOeusyO+XH2SK5ZcT+UCrElPP+WVIInh2TzeI4XW9ENaSLVVHA==}
     engines: {node: '>=12.22.0'}
     dependencies:
       '@ioredis/commands': 1.2.0
